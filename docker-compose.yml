@@ -1,0 +1,11 @@
+version: '3'
+services: 
+    myssql-todo :
+        container_name: pgsql-todo
+        image: postgres
+        environment :
+            POSTGRES_PASSWORD : todo
+        ports :
+            - 5432:5432
+        volumes:
+            - ./_build/data/pqsql:/var/lib/postgresql/data
