@@ -1,4 +1,4 @@
-module product
+module github.com/januarsal-kindi/go-crud-prouct/product
 
 go 1.14
 

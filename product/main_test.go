@@ -3,8 +3,8 @@ package main_test
 import (
 	"log"
 	"os"
-	"product"
 	"testing"
+    "github.com/januarsal-kindi/go-crud-prouct/product"
 	//  "net/http"
 	//  "net/http/httptest"
 	//  "strconv"
@@ -12,7 +12,7 @@ import (
 	//  "bytes"
 )
 
-var a product.App
+var a main.App
 
 func TestMain(m *testing.M) {
 	a.Initialize(
