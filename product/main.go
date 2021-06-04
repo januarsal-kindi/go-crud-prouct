@@ -3,7 +3,9 @@ package main
 func main() {
 	a := App{}
 	a.Initialize(
-		"root",
+		"localhost",
+		5432,
+		"postgres",
 		"todo",
 		"todo")
 
